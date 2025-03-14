@@ -6,7 +6,7 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
     throw "Laporan terlalu panjang, maksimal 1000 karakter!";
   let teks = `*${htki} ${command.toUpperCase()} ${htka}*\n📮 : ${text}\n*- @${m.sender.split("@")[0]}*`;
   await conn.reply(
-    nomorown + "@s.whatsapp.net",
+    global.nomorown + "@s.whatsapp.net",
     m.quoted ? teks + m.quoted?.text : teks,
     null,
     {
