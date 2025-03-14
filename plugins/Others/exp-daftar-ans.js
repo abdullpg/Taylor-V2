@@ -1,6 +1,10 @@
 export async function before(m) {
   let user = db.data.users[m.sender];
-  if (!(m.quoted?.fromMe && m.quoted?.isBaileys && m.text)) return true;
+  console.log("Quoted ID:", m.quoted?.id);
+  console.log("Stored ID:", db.data.database.registrasi[m.sender]?.MSG?.key?.id);
+
+  if (!db.data.database.registrasi[m.sender] || m.quoted.id !== db.data.database.registrasi[m.sender].MSG.key.id) return;
+
   db.data.database.registrasi = db.data.database.registrasi || {};
   if (
     !db.data.database.registrasi[m.sender] ||
@@ -8,9 +12,13 @@ export async function before(m) {
   )
     return;
   let txt = m.msg?.selectedDisplayText || m.text || "";
+  console.log("User Input:", txt);
+  console.log("Expected OTP:", db.data.database.registrasi[m.sender]?.OTP);
+
   if (!txt) {
     return await conn.reply(m.sender, "Masukkan input OTP!", m);
   }
+
   if (txt === db.data.database.registrasi[m.sender].OTP) {
     user.name = db.data.database.registrasi[m.sender].NAME.trim();
     user.age = db.data.database.registrasi[m.sender].AGE;

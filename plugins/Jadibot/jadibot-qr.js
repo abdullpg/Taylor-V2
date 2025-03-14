@@ -265,6 +265,7 @@ handler.tags = ["jadibot"];
 handler.command = /^(jadibotqr2)/i;
 handler.owner = true;
 handler.private = true;
+handler.premium = true;
 handler.limit = false;
 export default handler;
 

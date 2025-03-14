@@ -323,6 +323,7 @@ let handler = async (
   serbot();
 };
 handler.command = ["jadibotpairing", "serbot"];
+handler.premium = true;
 export default handler;
 
 function sleep(ms) {

@@ -121,6 +121,11 @@ const handler = async (m, { conn, usedPrefix, command, text }) => {
       "Sukses",
       sn.replace(/\D/g, ""),
     );
+
+    console.log("Generated OTP:", otp);
+    console.log("Generated Image:", image);
+    console.log("Generated Verified:", verified);
+
     let confirm =
       "📝 Silakan balas pesan ini dengan kode OTP yang tertera pada gambar.";
     let txt = `📝 *Proses Verifikasi* 📝\n\n@${m.sender.split("@")[0]}\n${confirm}\n\n_(Kode OTP berlaku sekali saja)_`;
@@ -149,6 +154,7 @@ const handler = async (m, { conn, usedPrefix, command, text }) => {
         delete db.data.database.registrasi[m.sender];
       }, 6e4),
     };
+    console.log("Registrasi:", db.data.database.registrasi);
     await conn.reply(
       m.chat,
       "📨 Form verifikasi telah dikirim ke chat pribadi kamu. Cek segera!",
