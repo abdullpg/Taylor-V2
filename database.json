@@ -91,7 +91,7 @@
       "emas": 0,
       "emerald": 0,
       "esteh": 0,
-      "exp": 641,
+      "exp": 913,
       "expg": 0,
       "exphero": 0,
       "expired": 0,
@@ -943,7 +943,7 @@
       "emas": 0,
       "emerald": 0,
       "esteh": 0,
-      "exp": 505,
+      "exp": 900,
       "expg": 0,
       "exphero": 0,
       "expired": 0,
@@ -1401,10 +1401,10 @@
       "lastSuccess": 1741929575798
     },
     "/plugins/Feature/random-fitur-1.js": {
-      "total": 7,
-      "success": 7,
-      "last": 1741932071619,
-      "lastSuccess": 1741932071619
+      "total": 15,
+      "success": 15,
+      "last": 1741933170937,
+      "lastSuccess": 1741933170937
     },
     "/plugins/Menu/menu-menu.js": {
       "total": null,
@@ -1443,16 +1443,16 @@
       "lastSuccess": 1741929766631
     },
     "/plugins/Others/enable.js": {
-      "total": 5,
-      "success": 5,
-      "last": 1741932148583,
-      "lastSuccess": 1741932148583
+      "total": 12,
+      "success": 12,
+      "last": 1741932829259,
+      "lastSuccess": 1741932829259
     },
     "/plugins/Menu/menu.js": {
-      "total": 1,
-      "success": null,
-      "last": 1741931404326,
-      "lastSuccess": 1741931404326
+      "total": 2,
+      "success": 1,
+      "last": 1741933111037,
+      "lastSuccess": 1741933111037
     },
     "/plugins/Others/listmsg.js": {
       "total": null,
@@ -1485,10 +1485,10 @@
       "lastSuccess": 1741931996370
     },
     "/plugins/Owner/owner-clearchat.js": {
-      "total": null,
-      "success": null,
-      "last": 1741932003343,
-      "lastSuccess": 1741932003343
+      "total": 3,
+      "success": 3,
+      "last": 1741932944059,
+      "lastSuccess": 1741932944059
     },
     "/plugins/Bot-function/bot-changelog.js": {
       "total": null,
@@ -1501,6 +1501,18 @@
       "success": null,
       "last": 1741932084414,
       "lastSuccess": 1741932084414
+    },
+    "/plugins/Information/info-totalfitur.js": {
+      "total": null,
+      "success": null,
+      "last": 1741932591570,
+      "lastSuccess": 1741932591570
+    },
+    "/plugins/Others/open-ai.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1741933170459,
+      "lastSuccess": 1741933170459
     }
   },
   "msgs": {},
@@ -1512,7 +1524,7 @@
       "gconly": false,
       "swonly": false,
       "antirpg": false,
-      "autoread": false,
+      "autoread": true,
       "jadibot": false,
       "restrict": false,
       "autorestart": true,
@@ -1572,7 +1584,14 @@
       }
     },
     "autochat": {},
-    "autodeepenglish": {}
+    "autodeepenglish": {},
+    "openai": {
+      "6282372570201@s.whatsapp.net": {
+        "key": {
+          "id": "RLZYY-18E82B352710601E4E"
+        }
+      }
+    }
   },
   "rpg": {
     "casinomulti": {},
