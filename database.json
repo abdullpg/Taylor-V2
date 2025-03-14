@@ -91,7 +91,7 @@
       "emas": 0,
       "emerald": 0,
       "esteh": 0,
-      "exp": 1367,
+      "exp": 1465,
       "expg": 0,
       "exphero": 0,
       "expired": 0,
@@ -932,6 +932,7 @@
       "crystal": 0,
       "cumi": 0,
       "cupon": 0,
+      "name": "faruq",
       "diamond": 0,
       "dog": 0,
       "dogexp": 0,
@@ -943,7 +944,7 @@
       "emas": 0,
       "emerald": 0,
       "esteh": 0,
-      "exp": 1288,
+      "exp": 1499,
       "expg": 0,
       "exphero": 0,
       "expired": 0,
@@ -1126,7 +1127,6 @@
       "mythic": 0,
       "naga": 0,
       "nagalastclaim": 0,
-      "name": "faruq",
       "net": 0,
       "nila": 0,
       "nilabakar": 0,
@@ -1174,7 +1174,7 @@
       "rhinoceroslastfeed": 0,
       "rock": 0,
       "roket": 0,
-      "role": "Newbie ㋡",
+      "role": "Beginner Grade 1 ⚊¹",
       "roti": 0,
       "rtrofi": "perunggu",
       "rubah": 0,
@@ -1425,10 +1425,10 @@
       "lastSuccess": 1741929683748
     },
     "/plugins/Others/speed.js": {
-      "total": 2,
-      "success": 2,
-      "last": 1741931794309,
-      "lastSuccess": 1741931794309
+      "total": 5,
+      "success": 5,
+      "last": 1741934752429,
+      "lastSuccess": 1741934752429
     },
     "/plugins/Others/anonymous-sendkontak.js": {
       "total": 1,
@@ -1521,10 +1521,10 @@
       "lastSuccess": 1741934078055
     },
     "/plugins/RPG/rpg-profile.js": {
-      "total": 4,
-      "success": 4,
-      "last": 1741933962396,
-      "lastSuccess": 1741933962396
+      "total": 5,
+      "success": 5,
+      "last": 1741934281056,
+      "lastSuccess": 1741934281056
     },
     "/plugins/Group/group-setname.js": {
       "total": null,
@@ -1533,16 +1533,16 @@
       "lastSuccess": 1741933507557
     },
     "/plugins/User/user-changename.js": {
-      "total": 1,
-      "success": null,
-      "last": 1741933528759,
-      "lastSuccess": 1741933528759
+      "total": 2,
+      "success": 1,
+      "last": 1741934266957,
+      "lastSuccess": 1741934266957
     },
     "/plugins/Owner/owner-getname.js": {
-      "total": null,
-      "success": null,
-      "last": 1741933529018,
-      "lastSuccess": 1741933529018
+      "total": 1,
+      "success": 1,
+      "last": 1741934267202,
+      "lastSuccess": 1741934267202
     },
     "/plugins/Others/levelup.js": {
       "total": null,
@@ -1551,10 +1551,16 @@
       "lastSuccess": 1741933923607
     },
     "/plugins/Owner/owner-restart.js": {
+      "total": 1,
+      "success": 1,
+      "last": 1741934557034,
+      "lastSuccess": 1741934557034
+    },
+    "/plugins/Owner/owner-getdb.js": {
       "total": null,
       "success": null,
-      "last": 1741933932322,
-      "lastSuccess": 1741933932322
+      "last": 1741934522814,
+      "lastSuccess": 1741934522814
     }
   },
   "msgs": {},
