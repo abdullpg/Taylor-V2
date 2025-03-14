@@ -175,6 +175,7 @@ const handler = async (m, { conn, usedPrefix, command, args }) => {
 (handler.help = ["en", "dis"].map((v) => v + "able <nomor atau nama fitur>")),
   (handler.tags = ["group", "owner"]),
   (handler.command = /^((en|dis)able|(tru|fals)e|(turn)?o(n|ff))$/i),
+
   (handler.owner = !0),
   (handler.rowner = !0);
 export default handler;

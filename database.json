@@ -91,7 +91,7 @@
       "emas": 0,
       "emerald": 0,
       "esteh": 0,
-      "exp": 433,
+      "exp": 641,
       "expg": 0,
       "exphero": 0,
       "expired": 0,
@@ -943,7 +943,7 @@
       "emas": 0,
       "emerald": 0,
       "esteh": 0,
-      "exp": 213,
+      "exp": 505,
       "expg": 0,
       "exphero": 0,
       "expired": 0,
@@ -1401,10 +1401,10 @@
       "lastSuccess": 1741929575798
     },
     "/plugins/Feature/random-fitur-1.js": {
-      "total": 5,
-      "success": 5,
-      "last": 1741931408109,
-      "lastSuccess": 1741931408109
+      "total": 7,
+      "success": 7,
+      "last": 1741932071619,
+      "lastSuccess": 1741932071619
     },
     "/plugins/Menu/menu-menu.js": {
       "total": null,
@@ -1413,10 +1413,10 @@
       "lastSuccess": 1741928798373
     },
     "/plugins/Menu/menu-3.js": {
-      "total": 5,
-      "success": 5,
-      "last": 1741929634818,
-      "lastSuccess": 1741929634818
+      "total": 6,
+      "success": 6,
+      "last": 1741931944025,
+      "lastSuccess": 1741931944025
     },
     "/plugins/Others/anonymous-chat.js": {
       "total": 2,
@@ -1425,10 +1425,10 @@
       "lastSuccess": 1741929683748
     },
     "/plugins/Others/speed.js": {
-      "total": 1,
-      "success": 1,
-      "last": 1741931377240,
-      "lastSuccess": 1741931377240
+      "total": 2,
+      "success": 2,
+      "last": 1741931794309,
+      "lastSuccess": 1741931794309
     },
     "/plugins/Others/anonymous-sendkontak.js": {
       "total": 1,
@@ -1443,16 +1443,64 @@
       "lastSuccess": 1741929766631
     },
     "/plugins/Others/enable.js": {
-      "total": 1,
-      "success": 1,
-      "last": 1741931338913,
-      "lastSuccess": 1741931338913
+      "total": 5,
+      "success": 5,
+      "last": 1741932148583,
+      "lastSuccess": 1741932148583
     },
     "/plugins/Menu/menu.js": {
       "total": 1,
       "success": null,
       "last": 1741931404326,
       "lastSuccess": 1741931404326
+    },
+    "/plugins/Others/listmsg.js": {
+      "total": null,
+      "success": null,
+      "last": 1741931567509,
+      "lastSuccess": 1741931567509
+    },
+    "/plugins/Others/cmd-list.js": {
+      "total": null,
+      "success": null,
+      "last": 1741931581338,
+      "lastSuccess": 1741931581338
+    },
+    "/plugins/Group/group-online.js": {
+      "total": null,
+      "success": null,
+      "last": 1741931601700,
+      "lastSuccess": 1741931601700
+    },
+    "/plugins/Information/info-totalchat.js": {
+      "total": null,
+      "success": null,
+      "last": 1741931648962,
+      "lastSuccess": 1741931648962
+    },
+    "/plugins/Owner/owner-cleartmp.js": {
+      "total": null,
+      "success": null,
+      "last": 1741931996370,
+      "lastSuccess": 1741931996370
+    },
+    "/plugins/Owner/owner-clearchat.js": {
+      "total": null,
+      "success": null,
+      "last": 1741932003343,
+      "lastSuccess": 1741932003343
+    },
+    "/plugins/Bot-function/bot-changelog.js": {
+      "total": null,
+      "success": null,
+      "last": 1741932047902,
+      "lastSuccess": 1741932047902
+    },
+    "/plugins/Auto-function/auto-waalaikumsalam.js": {
+      "total": null,
+      "success": null,
+      "last": 1741932084414,
+      "lastSuccess": 1741932084414
     }
   },
   "msgs": {},
